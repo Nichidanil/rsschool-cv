@@ -16,7 +16,7 @@ I'm 21 years old, I'm a 4th year student of the University of SibSUTI at the Fac
 
 ## Code Example
 `
-function multiply(a, b){
+function multiply(a, b){  
   return a * b
 }
 `
