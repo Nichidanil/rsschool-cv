@@ -13,12 +13,14 @@ I'm 21 years old, I'm a 4th year student of the University of SibSUTI at the Fac
 * some Python;
 * Git, GitHub;
 * Editors: Atom, VSCode.
+
 ## Code Example
 `
 function multiply(a, b){
   return a * b
 }
 `
+
 ## Experience:
 _Not by profession._
 
