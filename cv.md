@@ -13,9 +13,19 @@ I'm 21 years old, I'm a 4th year student of the University of SibSUTI at the Fac
 * some Python;
 * Git, GitHub;
 * Editors: Atom, VSCode.
-## Code Example:
+## Code Example
 `
 function multiply(a, b){
   return a * b
 }
 `
+## Experience:
+_Not by profession._
+
+## Education:
+* Siberian State University of Telecommunications and Informatics (4 Course);
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress).
+
+## Languages:
+* Russian - Native;
+* English - A1/A2.
