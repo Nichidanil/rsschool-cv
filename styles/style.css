@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap%27');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #1c1f2f;
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  left: 0;
+  top: 0;
+  background: linear-gradient(90.08deg, rgba(255, 0, 0, 0.7) 0.03%, rgba(255, 0, 255, 0) 100%);
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
+}
+
+.navbar-1 {
+  position: absolute;
+  /* width: 100%; */
+  height: 60px;
+  left: 0;
+  top: 0;
+}
+
+.aside {
+  position: absolute;
+  left: 10px;
+  width: 30%;
+  top: 70px;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  /* float: left; */
+  border: none;
+}
+
+.aside ul {
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1em;
+}
+
+.aside .img_picture {
+  position: relative;
+  /* bottom: 230px; */
+  /* margin-left: -60px; */
+}
+
+.aside h1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.aside h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+nav .navbar-1 {
+  display: block;
+  margin-left: 70%;
+  margin-top: 1%;
+}
+
+img {
+  border: none;
+}
+
+a {
+  display: block;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+}
+
+.footer {
+  position: absolute;
+  margin-top: 5%;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  left: 0;
+  background: linear-gradient(269.82deg, rgba(33, 150, 243, 0.7) 0%, rgba(233, 30, 99, 0.7) 100%);
+  box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.footer .footer_image {
+  position: absolute;
+  height: 100%;
+  /* margin-top: 1px; */
+  margin-left: 95%;
+}
+
+.footer .footer_rs_school_js {
+  position: absolute;
+  height: 100%;
+  /* margin-top: 1px; */
+  margin-left: 90%;
+}
+
+.footer .footer_text {
+  margin-top: 25px;
+  margin-left: 5px;
+  font-size: 25px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  z-index: 1;
+  margin-top:60px;
+}
+
+.container .card, .my-card {
+  position: relative;
+  top: 20px;
+  width: 280px;
+  height: 400px;
+  margin: 20px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.container .my-card .content {
+  padding: 20px;
+  text-align: center;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.container .my-card:hover .content {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.container .card .content {
+  padding: 20px;
+  text-align: center;
+}
+
+.container .my-card .content {
+  padding: 20px;
+  text-align: center;
+}
+
+.container .card .content h2 {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  font-size: 3em;
+  color: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+  text-decoration: none;
+}
+
+.container .my-card .content h2 {
+  position: absolute;
+  top: -80px;
+  right: 30px;
+  font-size: 3em;
+  color: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+  text-decoration: none;
+}
+
+.container .card .content h3 {
+  position: absolute;
+  top: 5px;
+  right: 30px;
+  font-size: 1.8em;
+  color: #fff;
+  z-index: 1;
+}
+
+.container .my-card .content h3 {
+  position: absolute;
+  top: -40px;
+  right: 30px;
+  font-size: 1.8em;
+  color: #fff;
+  z-index: 1;
+}
+
+.container .card .content ul {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  left: 0;
+  text-align: left;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.container .card .content p {
+  width: 100%;
+  text-align: left;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 300;
+}
+
+.container .my-card .content p {
+  width: 100%;
+  text-align: left;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 300;
+}
+
+.container .card .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background: #FFFFFF;
+  color: #000000;
+  font-weight: 500;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container .my-card .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background: #FFFFFF;
+  color: #000000;
+  font-weight: 500;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
