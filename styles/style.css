@@ -27,7 +27,7 @@ body {
 
 .navbar-1 {
   position: absolute;
-  width: 100%;
+  /* width: 100%; */
   height: 60px;
   left: 0;
   top: 0;
